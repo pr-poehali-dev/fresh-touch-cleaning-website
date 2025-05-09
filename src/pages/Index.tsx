@@ -61,33 +61,33 @@ const Index = () => {
       </header>
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-r from-blue-900 to-blue-700 text-white py-20">
-        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-12">
-          <div className="md:w-1/2 space-y-6">
-            <h1 className="text-4xl md:text-5xl font-bold leading-tight">
+      <section className="relative bg-gradient-to-r from-blue-900 to-blue-700 text-white py-10 md:py-20">
+        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center gap-6 md:gap-12">
+          <div className="md:w-1/2 space-y-4 md:space-y-6">
+            <h1 className="text-3xl md:text-5xl font-bold leading-tight">
               Профессиональная химчистка мебели и ковров
             </h1>
-            <p className="text-lg text-blue-100">
+            <p className="text-base md:text-lg text-blue-100">
               Вернем вашей мебели и коврам первозданный вид. Качественно,
               быстро, с гарантией результата.
             </p>
-            <div className="flex gap-4">
+            <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
               <Button
-                size="lg"
-                className="bg-white text-blue-800 hover:bg-blue-50"
+                size="default"
+                className="bg-white text-blue-800 hover:bg-blue-50 w-full sm:w-auto"
               >
                 Заказать химчистку
               </Button>
               <Button
-                size="lg"
+                size="default"
                 variant="outline"
-                className="text-white border-white hover:bg-blue-800/30"
+                className="text-white border-white hover:bg-blue-800/30 w-full sm:w-auto"
               >
                 Рассчитать стоимость
               </Button>
             </div>
           </div>
-          <div className="md:w-1/2">
+          <div className="md:w-1/2 mt-6 md:mt-0">
             <img
               src="https://images.unsplash.com/photo-1575758445636-73df7d3adfb5?q=80&w=1000"
               alt="Химчистка дивана"
@@ -95,7 +95,7 @@ const Index = () => {
             />
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 right-0 bg-white h-12 rounded-t-[50%]"></div>
+        <div className="absolute bottom-0 left-0 right-0 bg-white h-6 md:h-12 rounded-t-[50%]"></div>
       </section>
 
       {/* Services Section */}
