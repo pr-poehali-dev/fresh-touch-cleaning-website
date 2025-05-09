@@ -89,7 +89,7 @@ const Index = () => {
           </div>
           <div className="md:w-1/2 mt-6 md:mt-0">
             <img
-              src="https://images.unsplash.com/photo-1575758445636-73df7d3adfb5?q=80&w=1000"
+              src="https://cdn.poehali.dev/files/31956beb-59b8-48bf-ac02-20905eff1ea4.png"
               alt="Химчистка дивана"
               className="rounded-lg shadow-2xl w-full h-auto"
             />
